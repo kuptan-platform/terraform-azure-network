@@ -8,9 +8,9 @@ variable "region" {
   type        = string
 }
 
-variable "vnet_cidrs" {
+variable "vnet_cidr" {
   description = "The virtual network cidr block(s)"
-  type        = list(string)
+  type        = string
 }
 
 variable "vnet_name" {
